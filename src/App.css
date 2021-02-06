@@ -1,0 +1,10 @@
+.App {
+  text-align: center;
+  overflow: hidden;
+
+  min-height: 100%;
+}
+
+.App-link {
+  color: #61dafb;
+}

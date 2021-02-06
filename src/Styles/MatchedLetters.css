@@ -1,0 +1,47 @@
+.letters {
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+}
+.dashes {
+  width: 10px;
+  height: 10px;
+
+  margin: 0 3;
+}
+
+.white-text {
+  color: white;
+  width: 20px;
+  display: inline-block;
+  border-bottom: 2px solid gray;
+}
+.black-text {
+  color: black;
+  width: 20px;
+  display: inline-block;
+  border-bottom: 2px solid gray;
+}
+
+.matchedLtrs {
+  width: 50%;
+  margin: 0 auto;
+}
+.counter {
+  font-weight: bolder;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.blink_me {
+  color: red;
+  font-size: 14;
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}

@@ -1,0 +1,33 @@
+.alphaLtrs {
+  font-size: 22px;
+  border: 1px solid #000;
+  width: 35px;
+  height: 35px;
+  line-height: 30px;
+  margin-left: 2px;
+  margin-top: 2px;
+  background-color: #e399a9;
+  float: left;
+  outline: none;
+}
+.lettersBox {
+  width: 60%;
+}
+
+@media only screen and (max-width: 800px) {
+  .lettersBox {
+    width: 70%;
+  }
+  .alphaLtrs {
+    font-size: 12px;
+    border: 0.5px solid #000;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    margin-left: 2px;
+    margin-top: 2px;
+    background-color: #e399a9;
+    float: left;
+    outline: none;
+  }
+}

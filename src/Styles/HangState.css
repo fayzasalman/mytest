@@ -1,0 +1,10 @@
+.imgBlock {
+  border: none;
+  width: 180px;
+}
+@media only screen and (max-width: 800px) {
+  .imgBlock {
+    border: none;
+    width: 100px;
+  }
+}
